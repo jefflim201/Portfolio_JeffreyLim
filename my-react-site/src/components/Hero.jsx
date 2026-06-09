@@ -8,14 +8,16 @@ function Hero({ id, hero }) {
       <br></br>
       <h2>Skills</h2>
       <ul className="skills-list">
+        <li>Biomechanics (VICON, Visual3D)</li>
+        <li>Medical Devices</li>
         <li>Python (Machine Learning)</li>
-        <li>Statistical Analysis (Excel/MATLAB/SPSS)</li>
-        <li>Biomechanics</li>
-        <li>Designing Test Fixtures</li>
-        <li>Designing Test Fixtures</li>
-        <li>Designing Test Fixtures</li>
-        <li>Designing Test Fixtures</li>
-        <li>Designing Test Fixtures</li>
+        <li>Designing Test Protocols</li>
+        <li>SOLIDWORKS (CSWA Certified)</li>
+        <li>HTML, Javascript, CSS</li>
+        <li>Published Research in Composites Part C</li>
+        <li>Excel/MATLAB/SPSS (Statistics)</li>
+        
+        
       </ul>
       <br></br>
       

@@ -33,22 +33,30 @@
 }
 
 .site-nav a {
-  color: #D4C4C4;
-  
+  color: #000000;
+}
+
+.site-header.scrollUp .site-nav a {
+  color: #ffffff;
+}
+
+.site-header.scrollUp .home-link {
+  color: #ffffff;
 }
 .site-nav a:hover {
   color: #9ae08c
 }
 
 .site-header-inner a:hover {
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
-  text-decoration-color: #ffffff;
+  text-decoration-color: #ffa600;
+  text-underline-offset: 10px;
   text-decoration-thickness: 3px;
 }
 
 .home-link {
-  color: #D4C4C4;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -168,13 +176,26 @@
   margin-top: 3rem;
 }
 .site-header {
+  transition: background-color 1s ease, box-shadow 1s ease, color 1s ease;
+}
+.site-header.scrollDown {
+  position: sticky;
+  align-items: center;
+  z-index: 10;
+  background: #215f40, 10%;
+  backdrop-filter: blur(18px);
+}
+
+
+/* State: At the top (Solid background) */
+.site-header.scrollUp {
   position: sticky;
   align-items: center;
   z-index: 10;
   background: #215f40;
-  border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.3);
   backdrop-filter: blur(18px);
 }
+
 
 .site-header-inner {
   display: grid;
@@ -489,7 +510,7 @@
 }
 
 .portfolio .nav-arrow {
-  background: #31865a;
+  background: #215f40;
   border: 1px solid rgba(var(--callout-border-rgb), 0.25);
   color: white;
   padding: 0.4rem 0.6rem;
@@ -601,3 +622,4 @@ html {
 .scroll-section:last-of-type {
   margin-bottom: 60px; /* Space right before the footer */
 }
+

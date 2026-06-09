@@ -39,7 +39,7 @@ export const siteContent = {
     { title: 'Low-Profile Ankle Brace', description: 'Biomedical Undergraduate capstone project, developing a 3D-printed low-profile ankle brace', link: '/capstonePoster' },
     { title: 'A-Maize-Ing BioBlisters', description: 'Biodegradable, plant-based alternative to difficult-to-recycle blister packs', link: 'https://sites.google.com/view/maizebioblister/home' },
     { title: 'Tootyr (Tootor) Website Project', description: 'Developed new onboarding and subscription functionality using Javascript and HTML for education charity website', link: 'https://www.tootor.ca/' },
-    { title: 'Project Zeta', description: 'Summary of Zeta and next steps.', link: '#' },
+    { title: 'Lego Solidworks Project', description: 'Video showing assembly of a LEGO model built using SolidWorks.', link: 'https://youtu.be/YyBHEdJhO60' },
   ],
   contact: {
     eyebrow: 'Biomedical Engineer | Machine Learning',
