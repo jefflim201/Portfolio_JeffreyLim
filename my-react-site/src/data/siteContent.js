@@ -40,6 +40,8 @@ export const siteContent = {
     { title: 'A-Maize-Ing BioBlisters', description: 'Biodegradable, plant-based alternative to difficult-to-recycle blister packs', link: 'https://sites.google.com/view/maizebioblister/home' },
     { title: 'Tootyr (Tootor) Website Project', description: 'Developed new onboarding and subscription functionality using Javascript and HTML for education charity website', link: 'https://www.tootor.ca/' },
     { title: 'Lego Solidworks Project', description: 'Video showing assembly of a LEGO model built using SolidWorks.', link: 'https://youtu.be/YyBHEdJhO60' },
+    { title: 'Ontario Biomechanics Conference Presentation', description: 'Poster detailing a machine learning approach to analyze pre-collected riveting hammer vibration data from NIOSH.', link: '' },
+    { title: 'World Congress of Biomechanics Presentation', description: 'In-progress work looking at statistical correlations between tool vibration, wrist vibration, and applied forces while using common power tools', link: '' },
   ],
   contact: {
     eyebrow: 'Biomedical Engineer | Machine Learning',
