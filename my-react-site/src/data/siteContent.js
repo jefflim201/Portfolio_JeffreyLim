@@ -36,7 +36,7 @@ export const siteContent = {
   portfolioItems: [
     { title: 'Hand-Arm Vibration Identification', description: 'Model using regression and classification techniques to predict which tool is being used and total vibration exposure according to ISO-5349-1', link: 'https://github.com/jefflim201/handarmvibration' },
     { title: 'Bioplastics Research Article', description: 'Published journal article in material science journal on corn-based fillers in biocomposite plastics', link: 'https://doi.org/10.1016/j.jcomc.2022.100301' },
-    { title: 'Low-Profile Ankle Brace', description: 'Biomedical Undergraduate capstone project, developing a 3D-printed low-profile ankle brace', link: '/capstonePoster' },
+    { title: 'Low-Profile Ankle Brace', description: 'Biomedical Undergraduate capstone project, developing a 3D-printed low-profile ankle brace', link: '/capstonePoster.jpg' },
     { title: 'A-Maize-Ing BioBlisters', description: 'Biodegradable, plant-based alternative to difficult-to-recycle blister packs', link: 'https://sites.google.com/view/maizebioblister/home' },
     { title: 'Tootyr (Tootor) Website Project', description: 'Developed new onboarding and subscription functionality using Javascript and HTML for education charity website', link: 'https://www.tootor.ca/' },
     { title: 'Lego Solidworks Project', description: 'Video showing assembly of a LEGO model built using SolidWorks.', link: 'https://youtu.be/YyBHEdJhO60' },
